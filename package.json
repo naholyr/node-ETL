@@ -1,0 +1,23 @@
+{
+  "name": "node-ETL",
+  "version": "0.0.0",
+  "description": "ETL library for Node with high-level components based on Stream2 API",
+  "engines": {
+    "node": ">=0.9.8"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R list test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naholyr/node-ETL.git"
+  },
+  "author": "Nicolas Chambrier <naholyr@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "chai": "~1.5.0",
+    "mocha": "~1.8.1"
+  }
+}
